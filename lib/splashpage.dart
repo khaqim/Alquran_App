@@ -18,7 +18,7 @@ class SplashPage extends StatelessWidget {
             ),
           ),const SizedBox(height: 15,),
           const Text(
-            'Learn Quran and',
+            'Learn Quran aaa',
             style: TextStyle(
               fontSize: 20,
               color: Color(0xFF8789A3),
