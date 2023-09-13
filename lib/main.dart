@@ -1,5 +1,5 @@
-import 'package:belajar_flutter_dari_nol/bookmarks.dart';
-import 'package:belajar_flutter_dari_nol/homepage.dart';
+import 'package:belajar_flutter_dari_nol/pages/bookmarks.dart';
+import 'package:belajar_flutter_dari_nol/pages/homepage.dart';
 import 'package:belajar_flutter_dari_nol/splashpage.dart';
 import 'package:belajar_flutter_dari_nol/surahdetails.dart';
 import 'package:flutter/material.dart';
