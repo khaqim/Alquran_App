@@ -1,5 +1,5 @@
-import 'package:belajar_flutter_dari_nol/pages/bookmarks.dart';
-import 'package:belajar_flutter_dari_nol/pages/homepage.dart';
+import 'package:belajar_flutter_dari_nol/pages/bookmarks/bookmarks.dart';
+import 'package:belajar_flutter_dari_nol/pages/dashboard/dashboard_page.dart';
 import 'package:belajar_flutter_dari_nol/splashpage.dart';
 import 'package:belajar_flutter_dari_nol/surahdetails.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: DashboardPage(),
     );
   }
 }
