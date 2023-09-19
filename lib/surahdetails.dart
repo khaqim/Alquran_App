@@ -5,7 +5,8 @@ class SurahDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.white,
+    return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
@@ -79,8 +80,10 @@ class SurahDetails extends StatelessWidget {
             SizedBox(
               height: 32,
             ),
-            Container(padding: EdgeInsets.only(left: 13,right: 13),
-              child: Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            Container(
+              padding: EdgeInsets.only(left: 13, right: 13),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     alignment: Alignment.center,
@@ -94,11 +97,13 @@ class SurahDetails extends StatelessWidget {
                       '1',
                       style: TextStyle(color: Colors.white),
                     ),
-                  ),SizedBox(width: 170,),
+                  ),
+                  SizedBox(
+                    width: 170,
+                  ),
                   Image.asset('assets/images/share.png'),
-                    Image.asset('assets/images/play.png'),
-                    Image.asset('assets/images/copy.png')
-
+                  Image.asset('assets/images/play.png'),
+                  Image.asset('assets/images/copy.png')
                 ],
               ),
               decoration: BoxDecoration(
